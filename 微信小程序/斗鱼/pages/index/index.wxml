@@ -1,0 +1,7 @@
+<!--pages/index/index.wxml-->
+<view class="body">
+    <view class="cell" wx:for="{{gamedata.data}}">
+        <image class="icon" src="{{item.game_icon}}"></image>
+        <text class="title">{{item.game_name}}</text>
+    </view>
+</view>

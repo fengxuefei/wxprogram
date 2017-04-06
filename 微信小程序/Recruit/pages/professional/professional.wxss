@@ -1,0 +1,30 @@
+/* pages/professional/professional.wxss */
+
+.introview {
+  margin-right: 50rpx;
+  position: absolute;
+  width: 100px;
+  left: 25px;
+  top: 13px;
+  color: gray;
+  /*background-color: red;*/
+}
+
+.cultureview {
+  margin-right: 50rpx;
+  position: absolute;
+  width: 100px;
+  left: 330rpx;
+  top: 13px;
+  color: gray;
+}
+
+.professionalview {
+  margin-right: 50rpx;
+  position: absolute;
+  width: 180rpx;
+  left: 570rpx;
+  top: 13px;
+  color: #1da9fc;
+  /*background-color: red;*//*overflow: hidden;*/
+}

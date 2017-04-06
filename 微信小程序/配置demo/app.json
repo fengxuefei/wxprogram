@@ -1,0 +1,33 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#AA0000",
+    "navigationBarTitleText": "fxf2017",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+    "list":[
+      {
+        "pagePath":"pages/index/index",
+        "text":"index",
+        "iconPath":"images/icon-UB@3x.png",
+        "selectedIconPath":"images/icon-medal.png"
+      },
+      {
+        "pagePath":"pages/logs/logs",
+        "text":"logs",
+        "iconPath":"images/icon-star.png",
+        "selectedIconPath":"images/icon-star2.png"
+      }
+    ],
+    "color":"#00DDAA",
+    "selectedColor":"#0000AA",
+    "backgroundColor":"#00FF00",
+    "borderStyle":"white"
+  },
+  "debug":true
+}

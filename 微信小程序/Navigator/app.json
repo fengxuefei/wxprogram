@@ -1,0 +1,17 @@
+{
+    "pages": [
+      "pages/index/index",
+      "pages/form/form",
+      "pages/audio/audio",
+      "pages/video/video",
+      "pages/map/map"
+    ],
+    "window": {
+      "navigationBarBackgroundColor": "#ffffff",
+      "navigationBarTextStyle": "black",
+      "navigationBarTitleText": "小程序",
+      "backgroundColor": "#eeeeee",
+      "backgroundTextStyle": "light",
+      "enablePullDownRefresh": false
+    }
+}

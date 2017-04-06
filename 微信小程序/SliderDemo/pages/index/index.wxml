@@ -1,0 +1,9 @@
+<!--pages/index/index.wxml-->
+<view class="container">
+    <slider />
+    <slider show-value="aa"/>
+    <slider show-value="aa" min="100" max="1000"/>
+    <slider show-value="aa" step="2" bindchange="sliderChange"/>
+    <slider disabled="a"/>
+    <switch type="switch" checked="{{switchState}}"/>
+</view>

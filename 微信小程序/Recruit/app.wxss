@@ -1,0 +1,4 @@
+@import './common/css/recruitui.wxss';
+page{
+    background-color: #f2f2f2;
+}

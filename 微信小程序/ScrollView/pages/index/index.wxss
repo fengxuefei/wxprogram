@@ -1,0 +1,43 @@
+/* pages/index/index.wxss */
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.scroll-view-v{
+    width: 80%;
+    height: 300rpx;
+    background-color: orange;
+}
+.scroll-view-v-item{
+    width: 100%;
+    height: 100%;
+}
+.bgcolor-red{
+    background-color: red;
+}
+.bgcolor-blue{
+    background-color: blue;
+}
+.bgcolor-green{
+    background-color: green;
+}
+.bgcolor-purple{
+    background-color: purple;
+}
+button{
+    margin-top: 30rpx;
+}
+.scroll-view-h{
+    width: 80%;
+    height: 300rpx;
+    margin-top: 20rpx;
+    background-color: orangered;
+    white-space: nowrap;
+}
+.scroll-view-h-item{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+

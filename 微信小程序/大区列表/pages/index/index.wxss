@@ -1,0 +1,15 @@
+/* pages/index/index.wxss */
+.body{
+    display: flex;
+    flex-direction: column;
+}
+.cell{
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1rpx solid rgb(240, 240, 240);   
+    align-items: center;
+    cursor: pointer;
+    margin-left: 20rpx;
+    margin-right: 20rpx;
+}

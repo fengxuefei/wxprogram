@@ -1,0 +1,73 @@
+
+<!--pages/culture/culture.wxml-->
+<view class="page__bd" wx:if="{{showLoading}}">
+  <view class="weui-loadmore">
+    <view class="weui-loading"></view>
+    <view class="weui-loadmore__tips">正在加载</view>
+  </view>
+  <view class="weui-loadmore weui-loadmore_line">
+    <view class="weui-loadmore__tips weui-loadmore__tips_in-line">暂无数据</view>
+  </view>
+</view>
+<view class="page__bd" wx:if="{{!showLoading}}">
+  <view class="titleview">
+    <view class="titleview-cells" style="z-index:9;">
+      <image class="backimage" src="../../image/wechat-topbar-640.png"></image>
+      <view class="introview">个人资料</view>
+    </view>
+    <view class="titleview-cells" style="z-index:8">
+      <image class="backimage" src="../../image/wechat-topbar-640.png"></image>
+      <view class="cultureview">文化认同</view>
+    </view>
+    <view class="titleview-cells" style="z-index:7">
+      <image class="backimage" src="../../image/wechat-topbar-640.png"></image>
+      <view class="professionalview">专业技能</view>
+    </view>
+  </view>
+  <view class="questionview">
+
+    <!--<view class="weui-cells__title">{{(currentindex+1)+'.'+testpaper[currentindex].question}}</view>-->
+    <view class="answersview weui-cells_after-title">
+      <block wx:if="{{testpaper[currentindex].type=='单选'}}">
+        <view class="questiontitleview">{{(currentindex+1)+'.'+testpaper[currentindex].question}}</view>
+        <radio-group bindchange="radioChange">
+          <label class="answerview weui-check__label" wx:for="{{testpaper[currentindex].answers}}" wx:key="{{item.value}}">
+            <radio class="weui-check" value="{{item.value}}" checked="{{item.checked}}" />
+            <view class="radioview" wx:if="{{item.checked}}">
+              <image class="radioimage" src="../../image/radio2@2x.png"></image>
+            </view>
+            <view class="radioview" wx:else>
+              <image class="radioimage" src="../../image/radio@2x.png"></image>
+            </view>
+            <view class="weui-cell__bd">{{item.value+'.'+item.name}}</view>
+          </label>
+        </radio-group>
+      </block>
+      <block wx:if="{{testpaper[currentindex].type=='多选'}}">
+        <view class="questioncontent">
+          <view class="questiontitleview">{{(currentindex+1)+'.'+testpaper[currentindex].question}}
+            <text class="questiontype">[多选题]</text>
+          </view>
+        </view>
+        <checkbox-group bindchange="checkboxChange">
+          <label class="answerview weui-check__label" wx:for="{{testpaper[currentindex].answers}}" wx:key="{{item.value}}">
+            <checkbox class="weui-check" value="{{item.value}}" checked="{{item.checked}}" />
+            <view class="radioview" wx:if="{{item.checked}}">
+              <image class="radioimage" src="../../image/checkbox4@2x.png"></image>
+            </view>
+            <view class="radioview" wx:else>
+              <image class="radioimage" src="../../image/checkbox3@2x.png"></image>
+            </view>
+            <view class="weui-cell__bd">{{item.value+'.'+item.name}}</view>
+          </label>
+        </checkbox-group>
+      </block>
+    </view>
+  </view>
+  <view class="my-weui-btn-area">
+    <button class="weui-btn" disabled="{{!btnstatus}}" bindtap="nextquestion">确定</button>
+  </view>
+  <view class="question-bottom-view">
+    <view class="question-bottom-content-view">第 {{currentindex+1}}/{{testpaper.length}} 题</view>
+  </view>
+</view>

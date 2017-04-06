@@ -1,0 +1,40 @@
+{
+  "window": {
+    "navigationBarBackgroundColor": "#FF5511",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "小程序",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  },
+  "pages":[
+      "pages/view/view",
+      "pages/text/text",
+      "pages/icon/icon",
+      "pages/progress/progress"
+  ],
+  "tabBar": {
+    "selectedColor": "#00FF00",
+    "borderStyle": "white",
+    "list": [
+        {
+          "pagePath": "pages/view/view",
+          "text": "view",
+          "iconPath":"images/tabBarIcon-recommend-normal.png",
+          "selectedIconPath":"images/tabBarIcon-recommend-selected.png"
+        },
+        {
+          "pagePath": "pages/text/text",
+          "text": "text"
+        },
+        {
+          "pagePath": "pages/icon/icon",
+          "text": "icon"
+        },
+        {
+          "pagePath": "pages/progress/progress",
+          "text": "progress"
+        }
+    ]
+  }
+}

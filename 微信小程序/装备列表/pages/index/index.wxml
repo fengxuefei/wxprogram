@@ -1,0 +1,6 @@
+<!--pages/index/index.wxml-->
+<view class="body">
+    <navigator class="cell" wx:for="{{zblist}}" url="../detail/detail?title={{item.text}}&tag={{item.tag}}">
+        <text>{{item.text}}</text>
+    </navigator>
+</view>

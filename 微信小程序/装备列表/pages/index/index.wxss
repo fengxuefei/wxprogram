@@ -1,0 +1,12 @@
+/* pages/index/index.wxss */
+.body{
+    display: flex;
+    flex-direction: column;
+}
+.cell{
+    height: 40px;
+    border-bottom: 1rpx solid rgb(240, 240, 240);
+    align-items:center;
+    display: flex;
+    padding-left: 20rpx;
+}

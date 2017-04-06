@@ -1,0 +1,7 @@
+<!--pages/detail/detail.wxml-->
+<view class="body">
+    <view class="cell" wx:for="{{zbitems}}">
+        <image class="icon" src="{{'http://img.lolbox.duowan.com/zb/'+item.id+'_64x64.png'}}"></image>
+        <text class="title">{{item.text}}</text>
+    </view>
+</view>

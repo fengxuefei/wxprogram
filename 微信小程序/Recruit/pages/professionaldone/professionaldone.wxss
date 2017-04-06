@@ -1,0 +1,18 @@
+/* pages/professionaldone/professionaldone.wxss */
+.overimage{
+    width: 150rpx;
+    height: 150rpx;
+    padding-bottom: 80rpx;
+}
+
+.bodyview{
+    padding-top: 200rpx ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.overtext{
+    color: #1da9fc;
+    font-size: 50rpx;
+}

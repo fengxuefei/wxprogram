@@ -1,0 +1,6 @@
+<!--pages/index/index.wxml-->
+<view class="container">
+    <button bindtap="showToast">{{toastTitle}}</button>
+    <button bindtap="showModal">显示modal</button>
+    <button bindtap="showActionSheet">显示actionsheet</button>
+</view>

@@ -1,0 +1,21 @@
+<!--pages/index/index.wxml-->
+<view class="container">
+    <view class="section">
+        <text>地区选择器</text>
+        <picker mode="selector" range="{{dataList}}" value="{{index}}" bindchange="selectorChanged">
+            <view>您当前选择的是：{{dataList[index]}}</view>
+        </picker>
+    </view>
+    <view class="section">
+        <text>时间选择器</text>
+        <picker mode="time" value="{{time}}" start="10:00" end="24:00" bindchange="timeSelectorChanged">
+            <view>您选择的是 {{time}}</view>
+        </picker>
+    </view>
+    <view class="section">
+        <text>日期选择器</text>
+        <picker mode="date" value="{{date}}" start="2013-05" end="2019-11" bindchange="dateSelectorChanged">
+            <view>您选择的是 {{date}}</view>
+        </picker>
+    </view>
+</view>

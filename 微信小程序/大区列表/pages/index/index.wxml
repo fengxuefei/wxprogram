@@ -1,0 +1,7 @@
+<!--pages/index/index.wxml-->
+<view class="body">
+    <view wx:for="{{regions}}" class="cell">
+        <text class="lift-text">{{item.fn}}</text>
+        <text class="right-text">{{item.sn}}</text>
+    </view>
+</view>

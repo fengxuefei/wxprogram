@@ -1,0 +1,10 @@
+<!--pages/index/index.wxml-->
+<view class="container">
+    <swiper autoplay="aa" indicator-dots interval="2000" duration="250" bindchange="changeswiper" vertical>
+        <block  wx:for="{{imgUrls}}">
+            <swiper-item>
+                <image src="{{item}}"></image>
+            </swiper-item>
+        </block>
+    </swiper>
+</view>

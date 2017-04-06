@@ -1,0 +1,5 @@
+<view class="container">
+    <block wx:for="{{icons}}">
+        <icon type="{{item}}" size="{{23+index*5}}"></icon>
+    </block>
+</view>

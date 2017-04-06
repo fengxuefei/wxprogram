@@ -1,0 +1,49 @@
+/* pages/culture/culture.wxss */
+.introview {
+  margin-right: 50rpx;
+  position: absolute;
+  width: 100px;
+  left: 25px;
+  top: 13px;
+  color: gray;
+  /*background-color: red;*/
+}
+
+.cultureview {
+  margin-right: 50rpx;
+  position: absolute;
+  width: 100px;
+  left: 330rpx;
+  top: 13px;
+  color: #1da9fc;
+}
+
+.professionalview {
+  margin-right: 50rpx;
+  position: absolute;
+  width: 180rpx;
+  left: 570rpx;
+  top: 13px;
+  color: gray;
+  /*background-color: red;*/
+  /*overflow: hidden;*/
+}
+
+.nexttip-view{
+  height: 80rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100rpx;
+}
+
+.tipimage{
+  height: 70rpx;
+  width: 70rpx;
+  margin-right: 20rpx;
+}
+
+.nexttip{
+  font-size: 50rpx;
+  color: #1da9fc;
+}

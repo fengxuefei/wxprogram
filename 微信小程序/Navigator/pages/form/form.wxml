@@ -1,0 +1,25 @@
+<!--pages/form/form.wxml-->
+<view class="body">
+    <form bindsubmit="formsubmit">
+        <switch type="switch" name="switch" />
+        <input name="input"/>
+        <text name="text">请选择您喜欢的国家：</text>
+        <checkbox-group name="checkboxgroup">
+            <checkbox value="china">中国</checkbox>
+            <checkbox value="usa">美国</checkbox>
+            <checkbox value="japan">日本</checkbox>
+            <checkbox value="korea">韩国</checkbox>
+        </checkbox-group>
+        <text name="text1">请选择您喜欢的水果：</text>
+        <radio-group name="radiogroup">
+            <radio value="orange">橘子</radio>
+            <radio value="banana">香蕉</radio>
+            <radio value="apple">苹果</radio>
+            <radio value="tomato">西红柿</radio>
+        </radio-group>
+        <slider name="slider"/>
+        <picker mode="date" name="date">选择日期</picker>
+        <button type="primary" form-type="submit">submit</button>
+        <button form-type="reset">reset</button>
+    </form>
+</view>

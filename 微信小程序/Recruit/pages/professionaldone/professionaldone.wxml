@@ -1,0 +1,7 @@
+<!--pages/professionaldone/professionaldone.wxml-->
+<view class="page__bd">
+    <view class="bodyview">
+        <image src="../../image/icon-over-48@3x.png" class="overimage"></image>
+        <view class="overtext">您的笔试已经提交成功！</view>
+    </view>
+</view>

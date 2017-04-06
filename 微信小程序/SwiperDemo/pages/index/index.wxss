@@ -1,0 +1,11 @@
+/* pages/index/index.wxss */
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+swiper{
+    width: 80%;
+    height: 400rpx;
+    background-color: blue;
+}

@@ -1,0 +1,32 @@
+/* pages/form/form.wxss */
+.body{
+    display: flex;
+    flex-direction: column;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+checkbox-group{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    background-color: rgb(240, 240, 240);
+    margin-top: 20rpx;
+}
+text{
+    margin-top: 20rpx;
+    display: flex;
+}
+radio-group{
+    display: flex;
+    flex-direction: column;
+}
+slider{
+    margin-top: 20rpx;
+    width: 70%;
+}
+picker{
+    background-color: blue;
+}

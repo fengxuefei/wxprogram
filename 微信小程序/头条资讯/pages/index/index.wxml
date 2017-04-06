@@ -1,0 +1,20 @@
+
+<!--pages/index/index.wxml-->
+<view class="body">
+  <swiper class="topview" indicator-dots autoplay duration="250" interval="3000">
+    <swiper-item class="topview-item" wx:for="{{toplist}}">
+      <image class="topview-item-icon" src="{{item.photo}}"></image>
+    </swiper-item>
+  </swiper>
+  <navigator class="cell" wx:for="{{newslist}}" url="url">
+    <image class="cell-icon" src="{{item.photo}}"></image>
+    <view class="cell-viewright">
+        <text class="cell-rightview-title">{{item.title}}</text>
+        <text class="cell-rightview-content">{{item.content}}</text>
+        <view class="cell-rightview-bottom">
+            <text>阅读{{item.readCount}}</text>
+            <text>{{item.time}}</text>
+        </view>
+    </view>
+  </navigator>
+</view>

@@ -1,0 +1,8 @@
+<view class="container">
+    <progress class="container-item" percent="{{progressValue}}" show-info />
+    <progress class="container-item" percent="40" stroke-width="12"/>
+    <progress class="container-item" percent="60" color="pink" />
+    <progress class="container-item" percent="80" active />
+    
+    <button bindtap="clickBtn">1234</button>
+</view>

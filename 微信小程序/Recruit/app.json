@@ -1,0 +1,18 @@
+{
+    "pages": [
+      "pages/index/index",
+      "pages/introduction/introduction",
+      "pages/loading/loading",
+      "pages/culture/culture",
+      "pages/professional/professional",
+      "pages/professionaldone/professionaldone"
+    ],
+    "window": {
+      "navigationBarBackgroundColor": "#4a9df8 ",
+      "navigationBarTextStyle": "white",
+      "navigationBarTitleText": "KPI 365 招贤馆",
+      "backgroundColor": "#838f9f",
+      "backgroundTextStyle": "light",
+      "enablePullDownRefresh": true
+    }
+}

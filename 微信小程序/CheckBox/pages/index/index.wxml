@@ -1,0 +1,26 @@
+<!--pages/index/index.wxml-->
+<view class="container">
+    <text>请选择您喜欢的国家</text>
+    <checkbox-group class="group" bindchange="choosecheckbox">
+        <label>
+            <checkbox value="china">中国</checkbox>
+        </label>
+        
+        <checkbox value="usa" checked>美国</checkbox>
+        <checkbox value="japan" disabled>日本</checkbox>
+        <checkbox value="korea">韩国</checkbox>
+        <checkbox value="italy">意大利</checkbox>
+    </checkbox-group>
+
+    <label><switch type="switch" />操作开关</label>
+
+    <radio-group class="radio-group" bindchange="chooseradio">
+        <radio>西班牙</radio>
+        <label><radio value="china"></radio>中国</label>
+        <label><radio value="usa"></radio>美国</label>
+        <label><radio value="japan"></radio>日本</label>
+        <label><radio value="korea"></radio>韩国</label>
+        <label><radio value="italy"></radio>意大利</label>
+    </radio-group>
+    
+</view>

@@ -1,0 +1,12 @@
+<view class="container" wx:for="{{dataArr}}">
+    <text class="text last-item" wx:if="{{index==(dataArr.length-1)}}">
+        最后一条
+    </text>
+    <text class="text" wx:else>内容是：{{item}}，索引是：{{index}}</text>
+    <!--<text class="text">1</text>
+    <text class="text">2</text>
+    <text class="text">3</text>
+    <text class="text">4</text>
+    <text class="text">5</text>
+    <text class="text">{{text}}</text>-->
+</view>

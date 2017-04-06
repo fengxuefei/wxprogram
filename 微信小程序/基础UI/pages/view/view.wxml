@@ -1,0 +1,15 @@
+<view class="contalner">
+    <view class="container-horizoner-title">flex-direction:row</view>
+    <view class="contalner-horitontal">
+        <view class="contalner-horitontal-item bc_red">1</view>
+        <view class="contalner-horitontal-item bc_blue">2</view>
+        <view class="contalner-horitontal-item bc_green">3</view>
+    </view>
+
+    <view class="container-vertical-title">flex-direction:column</view>
+    <view class="contalner-vertical">
+        <view class="contalner-horitontal-item bc_red">1</view>
+        <view class="contalner-horitontal-item bc_blue">2</view>
+        <view class="contalner-horitontal-item bc_green">3</view>
+    </view>
+</view>

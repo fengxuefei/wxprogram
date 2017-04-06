@@ -1,0 +1,9 @@
+<!--pages/index/index.wxml-->
+<view class="container">
+    <switch type="switch" checked="{{firstSwitch}}"/>
+    <switch type="switch" checked="{{secondSwitch}}" />
+    <switch type="checkbox" checked="{{!firstSwitch}}"/>
+    <switch type="switch" bindchange="changeSwitch" />
+
+    <text>{{textValue}}</text>
+</view>

@@ -1,0 +1,105 @@
+.introview {
+  margin-right: 50rpx;
+  position: absolute;
+  width: 100px;
+  left: 25px;
+  top: 13px;
+  color: #1da9fc;
+  /*background-color: red;*/
+}
+
+.cultureview {
+  margin-right: 50rpx;
+  position: absolute;
+  width: 100px;
+  left: 330rpx;
+  top: 13px;
+  color: gray;
+}
+
+.professionalview {
+  margin-right: 50rpx;
+  position: absolute;
+  width: 180rpx;
+  left: 570rpx;
+  top: 13px;
+  color: gray;
+  /*background-color: red;*/
+  /*overflow: hidden;*/
+}
+
+text {
+  width: 170rpx;
+}
+
+.introductiontext {
+  color: #1da9fc;
+}
+
+.favoriteview {
+  display: flex;
+  flex-wrap: wrap;
+  /*width: 92%;*//*margin-left: 30rpx;*/
+  background-color: white;
+  padding-bottom: 30rpx;
+
+  /*justify-content: space-between;*/
+}
+
+.favorite-cell {
+  display: flex;
+  /*background-color: blue;*/
+  flex-wrap: nowrap;
+  white-space: nowrap;
+  padding: 5rpx 30rpx;
+  /*width: 150rpx;*/
+  border: 1rpx solid #d9d9d9;
+  border-radius: 13rpx;
+  align-items: center;
+  justify-content: center;
+  margin-left: 30rpx;
+  margin-top: 30rpx;
+}
+
+.favorite-cell-checked {
+  display: flex;
+  /*background-color: blue;*/
+  flex-wrap: nowrap;
+  white-space: nowrap;
+  padding: 5rpx 30rpx;
+  /*width: 150rpx;*/
+  border: 1rpx solid #1da9fc;
+  border-radius: 13rpx;
+  align-items: center;
+  justify-content: center;
+  margin-left: 30rpx;
+  margin-top: 30rpx;
+  color: #1da9fc;
+}
+
+.weui-cells__workhistory {
+  padding: 10px 15px;
+}
+
+.continueaddview{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.58823529em;
+}
+
+.continueaddbtn{
+    width: 250rpx;
+    height: 60rpx;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1rpx solid #1da9fc;
+    border-radius: 18rpx;
+    color: #1da9fc;
+    background-color: white;
+}
+
+.bottom-dis{
+  height: 15px;
+}

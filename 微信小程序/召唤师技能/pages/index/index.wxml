@@ -1,0 +1,7 @@
+<!--pages/index/index.wxml-->
+<view class="body">
+    <view class="cell" wx:for="{{skills}}">
+        <image class="icon" src="{{'http://img.lolbox.duowan.com/spells/png/'+item.id+'.png'}}"></image>
+        <text class="title">{{item.name}}</text>
+    </view>
+</view>

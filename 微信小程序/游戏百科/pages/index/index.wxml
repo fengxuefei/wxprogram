@@ -1,0 +1,7 @@
+<!--pages/index/index.wxml-->
+<view class="body">
+    <view class="cell" wx:for="{{dataList}}">
+        <image src="{{item.icon}}"></image>
+        <text>{{item.name}}</text>
+    </view>
+</view>

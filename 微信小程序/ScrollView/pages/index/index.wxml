@@ -1,0 +1,19 @@
+<!--pages/index/index.wxml-->
+<view class="container">
+    <!--<scroll-view class="scroll-view-v" scroll-y="aa" scroll-into-view="{{item_id}}">-->
+    <scroll-view class="scroll-view-v" scroll-y="aa" scroll-top="100" bindscrolltoupper="scrolltoupper" bindscrolltolower="scrolltolower" upper-threshold="100">
+        <view class="scroll-view-v-item bgcolor-red" id="red"></view>
+        <view class="scroll-view-v-item bgcolor-blue" id="blue"></view>
+        <view class="scroll-view-v-item bgcolor-green" id="green"></view>
+        <view class="scroll-view-v-item bgcolor-purple" id="purple"></view>
+    </scroll-view>
+
+    <button bindtap="changeItem">滚动到蓝色视图</button>
+
+    <scroll-view class="scroll-view-h" scroll-x="aa" scroll-top="100" bindscrolltoupper="scrolltoupper" bindscrolltolower="scrolltolower" upper-threshold="100">
+        <view class="scroll-view-h-item bgcolor-red" id="red"></view>
+        <view class="scroll-view-h-item bgcolor-blue" id="blue"></view>
+        <view class="scroll-view-h-item bgcolor-green" id="green"></view>
+        <view class="scroll-view-h-item bgcolor-purple" id="purple"></view>
+    </scroll-view>
+</view>

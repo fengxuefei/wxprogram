@@ -1,0 +1,11 @@
+<!--pages/index/index.wxml-->
+<view class="container">
+    <input value="12234" bindinput="changeinput" bindfocus="getfocus" bindblur="losefocus"/>
+    <input password/>
+    <input placeholder="请输入性别" placeholder-style="color:red"/>
+    <input placeholder="请输入密码" placeholder-class="placeh"/>
+    <input disabled/>
+    <input maxlength="6"/>
+
+    <textarea auto-height bindlinechange="changetextarea"/>
+</view>

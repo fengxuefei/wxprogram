@@ -1,0 +1,34 @@
+.contalner{
+    display: flex;
+    flex-direction: column;
+}
+.contalner-horitontal{
+    display: flex;
+}
+.contalner-horitontal-item{
+    width: 200rpx;
+    height: 200rpx;
+}
+.bc_red{
+    background-color: red;
+}
+.bc_blue{
+    background-color: blue;
+}
+.bc_green{
+    background-color: green;
+}
+.contalner-vertical{
+    display: flex;
+    flex-direction: column;
+}
+.container-horizoner-title{
+    margin-left: 20rpx;
+    margin-top: 200rpx;
+    margin-bottom: 20rpx;
+}
+.container-vertical-title{
+    margin-left: 20rpx;
+    margin-top: 50rpx;
+    margin-bottom: 20rpx;
+}

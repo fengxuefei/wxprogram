@@ -1,0 +1,7 @@
+<!--pages/index/index.wxml-->
+<view class="body">
+    <navigator url="../form/form?name=tom&wife=marry&like=gaga">Form</navigator>
+    <navigator url="../audio/audio">Audio</navigator>
+    <navigator url="../video/video" hover-class="hover">Video</navigator>
+    <navigator url="../map/map" redirect>Map</navigator>
+</view>
